@@ -1,0 +1,31 @@
+{
+  "name": "benjaminharvey2000.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminHarvey2000/BenjaminHarvey2000.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenjaminHarvey2000/BenjaminHarvey2000.github.io/issues"
+  },
+  "homepage": "https://github.com/BenjaminHarvey2000/BenjaminHarvey2000.github.io#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "autoprefixer": "^10.4.15",
+    "cssnano": "^6.0.1",
+    "html-minifier-terser": "^7.2.0",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "postcss-pxtorem": "^6.0.0",
+    "uglify-js": "^3.17.4"
+  }
+}
