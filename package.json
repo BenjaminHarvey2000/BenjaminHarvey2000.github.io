@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "minify-html": "html-minifier-terser index.html --collapse-whitespace --output=index.html", 
+    "optimize-css": "postcss css/style.css --use autoprefixer cssnano postcss-pxtorem --output css/style.css --no-map",
+    "transpile-js": "babel js/main.js -o js/main.js --presets=@babel/preset-env",
+    "minify-js": "uglifyjs js/main.js --compress -o js/main.js",
+    "build": "npm run minify-html && npm run optimize-css && npm run transpile-js && npm run minify-js"
   },
   "repository": {
     "type": "git",
